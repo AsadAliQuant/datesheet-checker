@@ -29,6 +29,7 @@ def main():
 
     if text == TARGET_TEXT:
         print("Date sheet not launched yet.")
+        trigger_call()
     else:
         print("Please create your datesheet now as it's launched now.")
         trigger_call()
